@@ -11,4 +11,4 @@ Alfred workflow with different text transformations actions:
 - UPPER CASE
 - Trim text
 
-![Screenshot](screen1.png)
+![Screenshot](screen.png)
