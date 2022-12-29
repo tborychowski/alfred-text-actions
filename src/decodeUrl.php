@@ -27,7 +27,7 @@ function html_decode($str) {
 
 
 $decoded = $query;
-$url_decode = urldecode($query);
+$url_decode = rawurldecode($query);
 if ($url_decode != $query) $decoded = $url_decode;
 
 // echo prepare_output($decoded);

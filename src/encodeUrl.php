@@ -33,7 +33,7 @@ $chars = str_split_unicode($query);
 $encoded = $query;
 
 // url
-$url_encode = urlencode($query);
+$url_encode = rawurlencode($query);
 if ($url_encode != $query) $encoded = $url_encode;
 
 echo prepare_output($encoded);
